@@ -4,11 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node_modules/mocha/bin/mocha tests/brute-force-test.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "chai": "^3.5.0",
     "mocha": "^3.0.2"
   }
 }
