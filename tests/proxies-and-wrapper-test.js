@@ -3,8 +3,8 @@ const assert = require('chai').assert
   , UniveralAnalytics = require('universal-analytics')
 ;
 
-let ignoreUser = 'ignore-me-please'
-  , validUser = 'please-use-me-instead'
+let ignoreUser = '58ae1179-d98c-48cc-960b-b7e1ec658225'
+  , validUser = '618ce899-a7a9-4436-bb07-7de23d873f61'
   , trackingCode = 'my-tracking-code'
 ;
 
