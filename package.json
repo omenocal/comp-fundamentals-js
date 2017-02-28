@@ -4,12 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node_modules/mocha/bin/mocha tests/higher-order-functions-test.js"
+    "test": "node_modules/mocha/bin/mocha tests/proxies-and-wrapper-test.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "chai": "^3.5.0",
-    "mocha": "^3.0.2"
+    "mocha": "^3.0.2",
+    "universal-analytics": "^0.4.9"
   }
 }
