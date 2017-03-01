@@ -26,8 +26,6 @@ describe('proxes-and-wrappers',function(){
     let ua2 = sut(ua);
     ua2.event('SomeCategory','SomeAction','SomeLabel');
 
-    console.log('ua2._queue', JSON.stringify(ua2._queue, null, 2));
-
     assert.lengthOf(ua2._queue,0);
   })
 })
